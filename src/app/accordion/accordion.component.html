@@ -1,0 +1,10 @@
+<div class="accordion accordion-container">
+  <div class="items-menu">
+    <!-- Render menu items here using <accordion-menu-item> template -->
+    <ng-template itemsMenu></ng-template>
+  </div>
+
+  <ng-container *ngFor="let item of items; let i = index">
+    <div>Item panel</div>
+  </ng-container>
+</div>
